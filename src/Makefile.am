@@ -17,8 +17,6 @@ NOWEB_FILES = hello-world.nw
 NOWEB_PRODUCTS = hello-world.c hello-world.h hello-world.scm hello-world-test.c hello-world-test.scm
 EXTRA_DIST = $(NOWEB_DOCS) $(NOWEB_EXTRA_DIST)
 
-doc-local : 	hello-world.pdf
-
 hello-world.o : hello-world.c.x
 
 check_PROGRAMS = hello-world-test-c
